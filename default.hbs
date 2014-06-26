@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{{meta_title}}</title>
+<script type="text/javascript" src="{{asset "js/jquery-2.1.1.min.js"}}"></script>
+<script type="text/javascript" src="{{asset "js/jquery.lettering-0.6.1.min.js"}}"></script>
+<link rel="stylesheet" href="{{asset "css/screen.css"}}" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+{{ghost_head}}
+</head>
+
+<body>
+
+<header id="site-header">
+
+{{#if @blog.logo}}<h1><a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a></h1>
+{{else}}<h1><a class="blog-title" href="{{@blog.url}}">{{@blog.title}}</a></h1>{{/if}}
+
+</header>
+
+<main>
+
+{{{body}}}
+
+</main>
+
+<footer id="site-footer">
+<p><a href="">8-bit Memories theme</a> by <a href="http://www.jamesfmackenzie.com">jamesfmackenzie</a> | Blog powered by <a href="http://www.ghost.org" target="_blank">Ghost</a> | <a href="{{@blog.url}}/rss">RSS</a></p>
+
+</footer>
+
+<script>
+  $(document).ready(function() {
+    $(".blog-title").lettering();
+  });
+</script>
+
+</body>
+
+</html>

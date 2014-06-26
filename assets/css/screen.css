@@ -1,0 +1,327 @@
+
+/* ------ fonts ------ */
+
+@font-face {
+    font-family: 'arcadepixregular';
+    src: url('/assets/fonts/arcadepix-webfont.eot');
+    src: url('/assets/fonts/arcadepix-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/arcadepix-webfont.woff') format('woff'),
+         url('/assets/fonts/arcadepix-webfont.ttf') format('truetype'),
+         url('/assets/fonts/arcadepix-webfont.svg#arcadepixregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ------ general styles ------ */
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  line-height: 18pt;
+  word-wrap: break-word;
+}
+
+h1 {  
+  font-size: 40pt;
+  line-height: 40pt;
+}
+
+h2 { 
+  font-size: 28pt;
+  letter-spacing: -1pt;  
+  line-height: 28pt;
+}
+
+h3 {
+  font-size: 18pt;
+  letter-spacing: -1pt; 
+}
+
+img {
+	  max-width: 100%;
+}
+
+hr {
+  margin-top: 48px;
+}
+
+/* ------ page header ------ */
+
+#site-header {
+  background-color: black;
+  padding: 22px 0 16px 0;
+}
+
+#site-header h1 {
+  width: 700px;
+  margin: 0 auto 0 auto;
+  max-width: 100%;
+}
+
+.blog-title {
+  font-family: 'arcadepixregular'; 
+  text-decoration: none;
+  font-smooth: never;
+  -webkit-font-smoothing : none;
+  font-weight: normal;
+}
+
+.blog-title .char1 {
+  color: #fff84a;
+}
+
+.blog-title .char2 {
+  color: #e9402b;
+}
+
+.blog-title .char3 {
+  color: #b848c6;
+}
+
+.blog-title .char4 {
+  color: #5dc12d;
+}
+
+.blog-title .char5 {
+  color: #c6c639;
+}
+
+.blog-title .char6 {
+  color: #ea675d;
+}
+
+.blog-title .char7 {
+  color: #0044f6;
+}
+
+.blog-title .char8 {
+  color: #e7863e;
+}
+
+.blog-title .char9 {
+  color: #e35cfa;
+}
+
+.blog-title .char10 {
+  color: #504e99;
+}
+
+.blog-title .char11 {
+  color: #956844;
+}
+
+.blog-title .char12 {
+  color: #86bdc4;
+}
+
+.blog-title .char13 {
+  color: #ba3121;
+}
+
+.blog-title .char14 {
+  color: #8683ca;
+}
+
+.blog-title .char15 {
+  color: #74f9fc;
+}
+
+.blog-title .char16 {
+  color: #fff84a;
+}
+
+.blog-title .char17 {
+  color: #e9402b;
+}
+
+.blog-title .char18 {
+  color: #b848c6;
+}
+
+.blog-title .char19 {
+  color: #5dc12d;
+}
+
+.blog-title .char20 {
+  color: #c6c639;
+}
+
+.blog-title .char21 {
+  color: #ea675d;
+}
+
+.blog-title .char22 {
+  color: #0044f6;
+}
+
+.blog-title .char23 {
+  color: #e7863e;
+}
+
+.blog-title .char24 {
+  color: #e35cfa;
+}
+
+.blog-title .char25 {
+  color: #504e99;
+}
+
+.blog-title .char26 {
+  color: #956844;
+}
+
+.blog-title .char27 {
+  color: #86bdc4;
+}
+
+.blog-title .char28 {
+  color: #ba3121;
+}
+
+.blog-title .char29 {
+  color: #8683ca;
+}
+
+.blog-title .char30 {
+  color: #74f9fc;
+}
+
+
+/* ------ main content area ------ */
+
+main {
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+/* ------ individual post ------ */
+
+article {
+  margin-top: 48px;
+}
+
+article a {
+  text-decoration: none;
+  color: red;
+}
+
+article a:hover {
+  color: white;
+  background-color: red;
+}
+
+.post-header h2 a {
+  color: black;
+}
+
+.post-header h2 a:hover {
+  background-color: black;
+  color: white;
+}
+
+.post-header p {
+  margin:0 0 6px 0;
+}
+
+.post-header h2 {
+  margin:0;
+}
+
+pre {
+  background-color: lightgray;
+  padding: 12px;
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+code { 
+  background-color: lightgray;
+  padding: 2px;
+  font-size: 11pt;
+}
+
+/* ------ page footer ------ */
+
+#site-footer {
+  margin-top: 36px;
+  background-color:black;
+  padding: 16px 0 8px 0;
+}
+
+#site-footer p {
+  display: block;
+  color: white;
+  max-width: 100%;
+  width: 700px;
+  margin: 0 auto 0 auto;
+}
+
+#site-footer a {
+  color: white;
+}
+
+#site-footer a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* ------ mobile (smaller than 700px) ------ */
+
+@media only screen and (max-width: 700px) {
+
+  body {
+    font-size: 11pt;
+    line-height: 14pt;
+  }
+
+  code { 
+    font-size: 10pt;
+    padding: 1px;
+  }
+  
+  h1 { 
+    font-size: 28pt;
+    line-height: 28pt;
+  }
+
+  h2 { 
+    font-size: 18pt;
+    line-height: 18pt;
+  }
+
+  h3 {
+    font-size: 14pt;
+  }
+  
+  main {
+    max-width: calc(100% - 30px);
+    margin: 0 15px 0 15px;
+  }
+  
+  img {
+    height: auto;
+    width: auto;
+  }
+  
+  #site-header h1 {
+    margin: 0 15px 0 15px;
+  }
+  
+  #site-header img {
+    max-width: calc(100% - 30px);
+    height: auto;
+    width: auto;
+  }
+  
+  #site-footer p {
+    margin: 0 15px 0 15px;
+    max-width: calc(100% - 30px);
+  }
+
+}
