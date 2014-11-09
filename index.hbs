@@ -1,13 +1,31 @@
 {{!< default.hbs}}
 
 {{#foreach posts}}
-  <article>
     <header class="post-header">
       <p>{{date}}</p>
       <h2><a href="{{url}}">{{title}}</a></h2>
+	  <nav class="downarrow"><a title="Skip to next entry" href="#{{title}}"><img src="/assets/images/downarrow.png"/></a></nav>
     </header>
-    {{content}}
-    <p><a href="{{url}}#disqus_thread">Comments</a></p>
+	<article>
+      {{content}}
+      <p><a href="{{url}}#disqus_thread">Comments</a></p>
+	  <a name="{{title}}" />
     </article>
-  <hr />
 {{/foreach}}
+
+{{pagination}}
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'jamesfmackenzie'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+  
