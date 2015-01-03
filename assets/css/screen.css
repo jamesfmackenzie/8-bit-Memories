@@ -50,7 +50,7 @@ hr {
 /* ------ page header ------ */
 
 #site-header {
-  width: 700px;
+  width: 750px;
   max-width: 100%;
   position: relative;
   margin: 0 auto 0 auto;
@@ -84,7 +84,7 @@ hr {
 .social-media-links p {
   color: white;
   display: block;
-  width:700px;
+  width:750px;
   max-width: 100%;
   margin: 0 auto 0 auto;
 }
@@ -110,7 +110,7 @@ main {
 
 article {
   margin-top: 48px;
-  width: 700px;
+  width: 750px;
   margin: 0 auto 40px auto;
   max-width: 100%;
 }
@@ -134,14 +134,14 @@ article a:hover {
 
 .post-header h2 {
   margin: 0 auto 0 auto;
-  width: 700px;
+  width: 750px;
   max-width: 100%;
 }
 
 .post-header p {
   display: block;
   margin: 0 auto 6px auto;
-  width: 700px;
+  width: 750px;
 }
 
 .post-header h2 a {
@@ -194,7 +194,7 @@ hr {
   display: block;
   color: white;
   max-width: 100%;
-  width: 700px;
+  width: 750px;
   margin: 0 auto 0 auto;
 }
 
